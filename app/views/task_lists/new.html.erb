@@ -1,0 +1,9 @@
+<h1>TaskLists#new</h1>
+<p>Find me in app/views/task_lists/new.html.erb</p>
+
+<%= simple_form_for @task_list do |f| %>
+<%= f.input :name, label: 'Title: ' %><br>
+<%= f.input :total, label: 'Author: ' %><br>
+<%= f.button :submit %>
+
+<% end %>
